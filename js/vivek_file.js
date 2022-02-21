@@ -404,7 +404,7 @@ function mergeDeep(target, ...sources) {
 
   return mergeDeep(target, ...sources);
 }
-function isObject(item) {
+function isObject(item) { 
   return (item && typeof item === 'object' && !Array.isArray(item));
 }
 //=== END OF COMPONENT ===
