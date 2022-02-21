@@ -9,7 +9,7 @@ __                .__                        __
 
 function codeLane(holder,width,height,data,custom_options){
 
-    function test(){
+    function test(){ 
 	    var error_counter = 5;
 	    
 	     var $temp = $("<input>");
